@@ -1,0 +1,209 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-banner {
+    background-color: black;
+    width: 1400px;
+    height: 750px;
+    border-radius: 30px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+
+.paragraph {
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 620px;
+    height: 650px;
+    padding-top: 100px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(230, 43, 43);
+    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+/* button styles */
+.container {
+    width: 1400px;
+}
+
+.container-body {
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.button-box {
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+
+}
+
+.button-part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.button {
+    border-radius: 5px;
+    color: rgb(2, 2, 2);
+    background-color: white;
+    font-weight: 200;
+    margin-bottom: 15px;
+    text-decoration: none;
+
+}
+
+.button-blog {
+    text-decoration: none;
+    background-color: rgb(230, 43, 43);
+    padding: 5px 6px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.fa-message {
+    margin-left: 10px;
+}
+
+.button-transfer {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/* transfer styples */
+.transfer-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-left: 20px;
+}
+
+.transfer-box {
+    border: 0.5px solid rgb(226, 222, 216);
+    border-radius: 10px;
+}
+
+.transfer-part img {
+    width: 150%;
+    border-radius: 10px;
+}
+
+.transfer {
+
+    margin-right: 105px;
+}
+
+.transfer-details {
+    margin-left: 15px;
+}
+
+.fa-message {
+    margin-left: 10px;
+}
+
+.button-transfer {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+/* footer part  */
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.big-text-1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.big-text-2 {
+    font-size: 25px;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.social-media {
+    font-size: 50px;
+}
+
+@media only screen and (max-width:688px) {
+    .top-banner {
+        width: 100%;
+    }
+
+    .button-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
